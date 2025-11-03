@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dart Frog Dev Server",
+            "type": "dart",
+            "request": "launch",
+            "program": ".dart_frog/server.dart",
+            "args": [],
+            "console": "terminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Dart Frog Server (port 8080)",
+            "type": "dart",
+            "request": "launch",
+            "program": ".dart_frog/server.dart",
+            "args": ["--port", "8080"],
+            "console": "terminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
