@@ -30,8 +30,6 @@ Future<Response> onRequest(RequestContext context) async {
       );
     }
 
-    // TODO: Cập nhật vào database
-    // Hiện tại chỉ trả về dữ liệu đã cập nhật
     final updatedData = {
       ...data,
       'updatedAt': DateTime.now().toIso8601String(),
